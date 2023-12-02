@@ -152,7 +152,7 @@ Light:
   serializedVersion: 10
   m_Type: 1
   m_Shape: 0
-  m_Color: {r: 0.6840513, g: 0.7080951, b: 0.7924528, a: 1}
+  m_Color: {r: 0.9811321, g: 0.502775, b: 0.42114633, a: 1}
   m_Intensity: 2
   m_Range: 10
   m_SpotAngle: 30
@@ -1082,6 +1082,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 6764781588993968916, guid: 58a9f4de705c0334eb7e2a066a4246f8,
+        type: 3}
+      propertyPath: _name
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6764781588993968916, guid: 58a9f4de705c0334eb7e2a066a4246f8,
+        type: 3}
+      propertyPath: _controller
+      value: 
+      objectReference: {fileID: 1507745860}
     - target: {fileID: 6764781588993968921, guid: 58a9f4de705c0334eb7e2a066a4246f8,
         type: 3}
       propertyPath: m_RootOrder
@@ -1285,5 +1295,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SaveController
       objectReference: {fileID: 0}
+    - target: {fileID: 9140951819906514797, guid: fb727d6bf75d85f438b1203de1122605,
+        type: 3}
+      propertyPath: _toSave
+      value: 
+      objectReference: {fileID: 962596874}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fb727d6bf75d85f438b1203de1122605, type: 3}
